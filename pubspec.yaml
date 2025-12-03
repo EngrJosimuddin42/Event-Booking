@@ -1,0 +1,45 @@
+name: event_booking
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  get: ^4.6.5
+  qr_flutter: ^4.0.0
+  flutter_stripe: ^12.1.0
+  cross_file: ^0.3.4
+  path_provider: ^2.1.2
+  intl: ^0.20.2
+  http: ^1.1.0
+  dropdown_button2: ^2.3.9
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.1.12
+  share_plus: ^10.0.2
+  mobile_scanner: ^3.5.0
+  screenshot: ^3.0.0
+  flutter_launcher_icons: ^0.10.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/placeholder.png
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
